@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', serif;
+    background-color: #dbdbdb;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.booking-card {
+    background: #43b4ff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    text-align: center;
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.payment label{
+    font-size: small;
+    color: red;
+}
+.payment img{
+    border-radius: 20px;
+    max-width: 35%;
+    height: auto;
+}
+
+.booking-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.booking-form label{
+    font-size: large;
+}
+.booking-form input, .booking-form select{
+    font-family: 'Poppins', serif;
+    font-size: small;
+    border-radius: 8px;
+    padding: 5px;
+    border: 2px solid #a5a5a5;
+}
+.booking-form button{
+    font-family: 'Poppins', serif;
+    background-color: #365bff;
+    font-size: medium;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: none;
+}
+.booking-form button:hover{
+    background-color: #497fe3;
+}
+@media (max-width: 600px) {
+    .booking-card {
+        width: 90%;
+    }
+}
